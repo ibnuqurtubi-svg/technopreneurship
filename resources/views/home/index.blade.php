@@ -12,30 +12,29 @@
 
 <span class="badge rounded-pill text-bg-success mb-3">
 
-Fresh • Healthy • Delicious
+Enak, Murah, Mengenyangkan
 
 </span>
 
 <h1>
 
-Fresh Bites,
+Nikamti Cita Rasa Yang Siap
 <br>
 
-Ready to Go.
+Menemani Harimu.
 
 </h1>
 
 <p>
 
-Nikmati makanan dan minuman berkualitas
-yang dibuat dari bahan pilihan untuk menemani
-aktivitasmu setiap hari.
-
+Bite & Go menghadirkan sempol gurih, 
+nasi daun jeruk ayam goreng bawang putih, 
+dan minuman soda segar yang cocok dinikmati kapan saja.
 </p>
 
 <a href="#" class="btn btn-success btn-lg">
 
-Explore Menu
+Lihat Menu
 
 </a>
 
