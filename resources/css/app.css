@@ -1,9 +1,95 @@
-@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+:root{
+
+--cream:#F8F5F0;
+--green:#6F8F72;
+--dark:#2E4732;
+--beige:#D9C8A9;
+--text:#444;
+
+}
+
+body{
+
+background:var(--cream);
+
+font-family:Poppins,sans-serif;
+
+color:var(--text);
+
+}
+
+.logo{
+
+color:var(--green)!important;
+
+}
+
+.nav-link{
+
+color:var(--dark)!important;
+
+font-weight:500;
+
+margin-left:18px;
+
+}
+
+.hero{
+
+padding:90px 0;
+
+}
+
+.hero h1{
+
+font-family:Playfair Display;
+
+font-size:68px;
+
+font-weight:bold;
+
+color:var(--dark);
+
+line-height:1.2;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+margin:25px 0;
+
+}
+
+.btn-success{
+
+background:var(--green);
+
+border:none;
+
+padding:14px 34px;
+
+border-radius:50px;
+
+}
+
+.hero-image{
+
+width:520px;
+
+border-radius:30px;
+
+box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+footer{
+
+color:#888;
+
 }
