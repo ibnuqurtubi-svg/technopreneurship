@@ -1,95 +1,235 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
 :root{
+    --cream:#F8F5F0;
+    --white:#FFFFFF;
+    --green:#6F8F72;
+    --dark:#2E4732;
+    --beige:#D9C8A9;
+    --text:#555;
+}
 
---cream:#F8F5F0;
---green:#6F8F72;
---dark:#2E4732;
---beige:#D9C8A9;
---text:#444;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+html{
+    scroll-behavior:smooth;
 }
 
 body{
+    background:var(--cream);
+    color:var(--text);
+    font-family:'Poppins',sans-serif;
+}
 
-background:var(--cream);
+/* ================= NAVBAR ================= */
 
-font-family:Poppins,sans-serif;
-
-color:var(--text);
-
+.navbar{
+    background:transparent;
+    padding:20px 0;
 }
 
 .logo{
-
-color:var(--green)!important;
-
+    color:var(--green)!important;
+    font-size:30px;
+    font-weight:700;
 }
 
 .nav-link{
-
-color:var(--dark)!important;
-
-font-weight:500;
-
-margin-left:18px;
-
+    color:var(--dark)!important;
+    font-weight:500;
+    margin-left:20px;
+    transition:.3s;
 }
 
+.nav-link:hover{
+    color:var(--green)!important;
+}
+
+/* ================= HERO ================= */
+
 .hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    padding:80px 0;
+}
 
-padding:90px 0;
-
+.hero-tag{
+    display:inline-block;
+    background:#dce8dc;
+    color:var(--green);
+    padding:8px 20px;
+    border-radius:50px;
+    font-weight:600;
+    margin-bottom:20px;
 }
 
 .hero h1{
-
-font-family:Playfair Display;
-
-font-size:68px;
-
-font-weight:bold;
-
-color:var(--dark);
-
-line-height:1.2;
-
+    font-family:'Playfair Display',serif;
+    font-size:64px;
+    color:var(--dark);
+    line-height:1.2;
+    margin-bottom:20px;
 }
 
 .hero p{
-
-font-size:18px;
-
-margin:25px 0;
-
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
 }
 
-.btn-success{
+.btn-custom{
+    display:inline-block;
+    background:var(--green);
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
 
-background:var(--green);
-
-border:none;
-
-padding:14px 34px;
-
-border-radius:50px;
-
+.btn-custom:hover{
+    background:var(--dark);
+    color:white;
+    transform:translateY(-3px);
 }
 
 .hero-image{
-
-width:520px;
-
-border-radius:30px;
-
-box-shadow:0 20px 40px rgba(0,0,0,.12);
-
+    width:100%;
+    max-width:500px;
+    border-radius:30px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
 }
 
-footer{
+/* ================= PEMBATAS ================= */
 
-color:#888;
+.section-divider{
+    width:100%;
+    height:90px;
+    background:white;
+    border-radius:50px 50px 0 0;
+    margin-top:-20px;
+}
+
+/* ================= BEST SELLER ================= */
+
+.best-seller{
+    background:white;
+    padding:80px 0;
+}
+
+.section-tag{
+    color:var(--green);
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+
+.section-title{
+    font-family:'Playfair Display',serif;
+    font-size:48px;
+    color:var(--dark);
+    margin:15px 0;
+}
+
+.section-subtitle{
+    color:#777;
+    margin-bottom:40px;
+}
+
+.product-card{
+    background:#F8F5F0;
+    border-radius:25px;
+    padding:20px;
+    text-align:center;
+    transition:.3s;
+    height:100%;
+}
+
+.product-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+.product-card h4{
+    margin-top:20px;
+    color:var(--dark);
+}
+
+.product-card p{
+    color:#777;
+    margin:15px 0;
+}
+
+.price{
+    color:var(--green);
+    font-size:24px;
+    font-weight:700;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+    background:var(--dark);
+    color:white;
+    padding:70px 0 20px;
+}
+
+.footer h3,
+.footer h5{
+    color:white;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+}
+
+.footer ul li{
+    margin-bottom:10px;
+}
+
+.footer hr{
+    margin:40px 0 20px;
+    opacity:.2;
+}
+
+.footer-bottom{
+    text-align:center;
+    color:#ddd;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero-image{
+    margin-top:40px;
+}
+
+.section-title{
+    font-size:38px;
+}
 
 }
