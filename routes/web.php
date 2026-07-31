@@ -16,3 +16,8 @@ Route::get('/tentang-kami', function () {
 Route::get('/kontak', function () {
     return view('home.index'); // Bisa disesuaikan jika nanti ada view khusus kontak
 })->name('contact');
+
+// Route untuk Halaman Kontak (Contact)
+Route::get('/kontak', function () {
+    return view('home.contact');
+})->name('contact');
