@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark" lang="en" style="">
+<html class="dark" lang="en">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -136,29 +136,42 @@
 
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
         }
     </style>
 </head>
-<body class="font-body-md text-body-md">
+<body class="font-body-md text-body-md selection:bg-primary/30 selection:text-primary">
 
-<!-- Top Navigation -->
-<nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-on-surface/10">
-    <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-20">
+<!-- Sesuai Desain: Ikon Kiri, Logo Tengah, Nav Kanan -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 md:px-margin-desktop flex justify-between items-center h-20 relative">
+        
+        <!-- Bagian Kiri: Ikon -->
         <div class="flex items-center gap-4">
             <button class="md:hidden text-primary">
-                <span class="material-symbols-outlined" data-icon="menu">menu</span>
+                <span class="material-symbols-outlined">menu</span>
             </button>
-            <span class="material-symbols-outlined text-primary hidden md:block" data-icon="restaurant_menu">restaurant_menu</span>
+            <span class="material-symbols-outlined text-primary hidden md:block">restaurant_menu</span>
         </div>
-        <div class="font-headline-md text-headline-md font-bold tracking-widest text-primary dark:text-primary">BITE &amp; GO</div>
-        <div class="hidden md:flex gap-8">
-            <a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm tracking-widest" href="{{ route('home') }}">MENU</a>
-            <a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm tracking-widest" href="{{ route('about') }}">MENGENAI TIM KAMI</a>
-            <a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm tracking-widest" href="#">KONTAK
+        
+        <!-- Bagian Tengah: Logo BITE & GO -->
+        <div class="absolute left-1/2 -translate-x-1/2 font-headline-md text-headline-md font-bold tracking-widest text-primary">
+            BITE &amp; GO
         </div>
-        <div class="flex items-center">
-            <span class="material-symbols-outlined text-primary" data-icon="shopping_bag">shopping_bag</span>
+        
+        <!-- Bagian Kanan: Menu Navigasi & Ikon Tas -->
+        <div class="flex items-center gap-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a class="font-label-sm text-label-sm text-primary font-bold border-b border-primary pb-1 transition-colors duration-300 uppercase tracking-widest" href="{{ route('home') }}">Menu</a>
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('about') }}">Mengenai Tim Kami</a>
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('contact') }}">Kontak</a>
+            </div>
+            <button class="text-primary hover:text-primary-fixed-dim transition-colors flex items-center">
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </button>
         </div>
+
     </div>
 </nav>
 
@@ -301,9 +314,9 @@
             </p>
         </div>
         <nav class="flex flex-wrap justify-center md:justify-end gap-6 md:gap-8">
-            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="{{ route('home') }}">MENU</a>
-            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="{{ route('about') }}">MENGENAI TIM KAMI</a>
-            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">KONTAK
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="{{ route('home') }}">MENU</a>
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="{{ route('about') }}">MENGENAI TIM KAMI</a>
+            <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="{{ route('contact') }}">KONTAK</a>
         </nav>
     </div>
     <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop mt-16 pt-8 border-t border-on-surface/10 flex flex-col md:flex-row items-center justify-between gap-6">

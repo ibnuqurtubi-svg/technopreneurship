@@ -120,13 +120,35 @@
 </head>
 <body class="bg-background text-on-background font-body-md selection:bg-primary/30 selection:text-primary">
 
-<!-- Global TopNavBar Shell -->
-<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 md:px-margin-desktop py-6 max-w-7xl mx-auto left-1/2 -translate-x-1/2 bg-background/80 backdrop-blur-xl border-b border-white/10">
-    <div class="font-headline-md text-headline-md tracking-tighter text-primary">BITE &amp; GO</div>
-    <div class="hidden md:flex items-center gap-8">
-        <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="{{ route('home') }}">Menu</a>
-        <a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors duration-300" href="{{ route('about') }}">Tentang Kami</a>
-        <a class="font-body-md text-body-md text-primary font-bold border-b-2 border-primary pb-1" href="{{ route('contact') }}">Contact</a>
+<!-- Sesuai Desain: Ikon Kiri, Logo Tengah, Nav Kanan -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 md:px-margin-desktop flex justify-between items-center h-20 relative">
+        
+        <!-- Bagian Kiri: Ikon -->
+        <div class="flex items-center gap-4">
+            <button class="md:hidden text-primary">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+            <span class="material-symbols-outlined text-primary hidden md:block">restaurant_menu</span>
+        </div>
+        
+        <!-- Bagian Tengah: Logo BITE & GO -->
+        <div class="absolute left-1/2 -translate-x-1/2 font-headline-md text-headline-md font-bold tracking-widest text-primary">
+            BITE &amp; GO
+        </div>
+        
+        <!-- Bagian Kanan: Menu Navigasi & Ikon Tas -->
+        <div class="flex items-center gap-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('home') }}">Menu</a>
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('about') }}">Mengenai Tim Kami</a>
+                <a class="font-label-sm text-label-sm text-primary font-bold border-b border-primary pb-1 transition-colors duration-300 uppercase tracking-widest" href="{{ route('contact') }}">Kontak</a>
+            </div>
+            <button class="text-primary hover:text-primary-fixed-dim transition-colors flex items-center">
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </button>
+        </div>
+
     </div>
 </nav>
 

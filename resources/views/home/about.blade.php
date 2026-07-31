@@ -1,104 +1,100 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html class="dark" lang="id">
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Tentang Kami | LUMINA</title>
-    <!-- Tailwind CSS -->
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Tentang Kami | BITE &amp; GO - Contemporary Oriental Noir</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    
-    <!-- Google Fonts & Material Symbols -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
     <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-              "surface-tint": "#c8c8b0",
-              "on-secondary-fixed": "#072014",
-              "primary": "#ffffff",
-              "on-surface": "#cbead8",
-              "primary-fixed": "#e4e4cc",
-              "tertiary-fixed": "#ffdea5",
-              "secondary-fixed-dim": "#b1cdbb",
-              "tertiary-container": "#ffdea5",
-              "inverse-surface": "#cbead8",
-              "error": "#ffb4ab",
-              "outline-variant": "#47473f",
-              "primary-container": "#e4e4cc",
-              "surface-container-high": "#142f23",
-              "on-primary-fixed": "#1b1d0e",
-              "on-tertiary": "#412d00",
-              "on-primary": "#303221",
-              "surface-dim": "#00180e",
-              "on-background": "#cbead8",
-              "on-tertiary-fixed": "#261900",
-              "secondary-fixed": "#cde9d6",
-              "surface-variant": "#1f3a2e",
-              "tertiary-fixed-dim": "#e9c176",
-              "on-error-container": "#ffdad6",
-              "secondary": "#b1cdbb",
-              "on-tertiary-fixed-variant": "#5d4201",
-              "on-error": "#690005",
-              "tertiary": "#ffffff",
-              "error-container": "#93000a",
-              "on-primary-fixed-variant": "#474836",
-              "secondary-container": "#354e40",
-              "inverse-primary": "#5e604d",
-              "surface": "#00180e",
-              "on-secondary-container": "#a3bfad",
-              "on-surface-variant": "#c8c7bc",
-              "inverse-on-surface": "#1b362a",
-              "surface-container": "#082419",
-              "surface-container-low": "#042015",
-              "on-tertiary-container": "#7e5f1f",
-              "on-primary-container": "#646652",
-              "primary-fixed-dim": "#c8c8b0",
-              "on-secondary": "#1d3528",
-              "surface-container-highest": "#1f3a2e",
-              "on-secondary-fixed-variant": "#334c3e",
-              "surface-bright": "#243f32",
-              "surface-container-lowest": "#001209",
-              "outline": "#929187",
-              "background": "#00180e"
-            },
-            "borderRadius": {
-              "DEFAULT": "0px",
-              "lg": "0px",
-              "xl": "0px",
-              "full": "0px" /* Strict Lumina Rule: 0px Roundedness */
-            },
-            "spacing": {
-              "margin-mobile": "20px",
-              "section-gap": "120px",
-              "margin-desktop": "80px",
-              "unit": "8px",
-              "gutter": "24px"
-            },
-            "fontFamily": {
-              "headline-xl": ["Playfair Display"],
-              "headline-lg-mobile": ["Playfair Display"],
-              "label-sm": ["Hanken Grotesk"],
-              "headline-md": ["Playfair Display"],
-              "headline-lg": ["Playfair Display"],
-              "body-md": ["Hanken Grotesk"],
-              "body-lg": ["Hanken Grotesk"]
-            },
-            "fontSize": {
-              "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-              "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
-              "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
-              "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
-              "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}],
-              "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-              "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}]
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#354e40",
+                        "primary-container": "#e4e4cc",
+                        "surface": "#00180e",
+                        "secondary": "#b1cdbb",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "on-background": "#cbead8",
+                        "surface-container-high": "#142f23",
+                        "on-tertiary": "#412d00",
+                        "surface-variant": "#1f3a2e",
+                        "inverse-surface": "#cbead8",
+                        "on-error": "#690005",
+                        "on-error-container": "#ffdad6",
+                        "surface-bright": "#243f32",
+                        "on-surface": "#cbead8",
+                        "tertiary-container": "#ffdea5",
+                        "surface-container-low": "#042015",
+                        "error-container": "#93000a",
+                        "primary-fixed-dim": "#c8c8b0",
+                        "surface-dim": "#00180e",
+                        "secondary-fixed": "#cde9d6",
+                        "primary": "#ffffff",
+                        "error": "#ffb4ab",
+                        "secondary-fixed-dim": "#b1cdbb",
+                        "on-primary-fixed-variant": "#474836",
+                        "on-secondary": "#1d3528",
+                        "on-primary": "#303221",
+                        "tertiary": "#ffffff",
+                        "surface-container": "#082419",
+                        "on-primary-fixed": "#1b1d0e",
+                        "surface-container-lowest": "#001209",
+                        "inverse-on-surface": "#1b362a",
+                        "outline": "#929187",
+                        "tertiary-fixed": "#ffdea5",
+                        "on-tertiary-container": "#7e5f1f",
+                        "on-primary-container": "#646652",
+                        "on-secondary-fixed-variant": "#334c3e",
+                        "on-surface-variant": "#c8c7bc",
+                        "surface-container-highest": "#1f3a2e",
+                        "on-secondary-container": "#a3bfad",
+                        "primary-fixed": "#e4e4cc",
+                        "surface-tint": "#c8c8b0",
+                        "outline-variant": "#47473f",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "on-secondary-fixed": "#072014",
+                        "inverse-primary": "#5e604d",
+                        "background": "#00180e",
+                        "on-tertiary-fixed": "#261900"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "0px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "margin-mobile": "20px",
+                        "gutter": "24px",
+                        "margin-desktop": "80px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["Playfair Display"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-xl": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                        "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "600"}]
+                    }
+                }
             }
-          },
-        },
-      }
+        }
     </script>
     <style>
         body {
@@ -130,10 +126,12 @@
 
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
         }
     </style>
 </head>
-<body class="font-body-md text-body-md">
+<body class="font-body-md text-body-md selection:bg-primary/30 selection:text-primary">
 
     @php
     // Data Tim Koki & Pendiri
@@ -181,26 +179,35 @@
     ];
     @endphp
 
-    <!-- Responsive Top Navigation -->
-    <nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 dark:bg-surface/80 backdrop-blur-xl border-b border-on-surface/10">
-        <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-20">
+    <!-- Sesuai Desain: Ikon Kiri, Logo Tengah, Nav Kanan -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-xl border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 md:px-margin-desktop flex justify-between items-center h-20 relative">
+            
+            <!-- Bagian Kiri: Ikon -->
             <div class="flex items-center gap-4">
                 <button class="md:hidden text-primary">
-                    <span class="material-symbols-outlined" data-icon="menu">menu</span>
+                    <span class="material-symbols-outlined">menu</span>
                 </button>
-                <span class="material-symbols-outlined text-primary hidden md:block" data-icon="restaurant_menu">restaurant_menu</span>
-                <span class="font-headline-md text-headline-md font-bold tracking-widest text-primary">LUMINA</span>
+                <span class="material-symbols-outlined text-primary hidden md:block">restaurant_menu</span>
             </div>
             
-            <div class="hidden md:flex gap-8">
-                <a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm tracking-widest" href="{{ route('home') }}">MENU</a>
-                <a class="text-primary border-b border-primary pb-1 transition-colors text-label-sm tracking-widest" href="{{ route('about') }}">TENTANG KAMI</a>
-                <a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm tracking-widest" href="{{ route('contact') ?? '#' }}">KONTAK</a>
+            <!-- Bagian Tengah: Logo BITE & GO -->
+            <div class="absolute left-1/2 -translate-x-1/2 font-headline-md text-headline-md font-bold tracking-widest text-primary">
+                BITE &amp; GO
+            </div>
+            
+            <!-- Bagian Kanan: Menu Navigasi & Ikon Tas -->
+            <div class="flex items-center gap-8">
+                <div class="hidden md:flex items-center gap-8">
+                    <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('home') }}">Menu</a>
+                    <a class="font-label-sm text-label-sm text-primary font-bold border-b border-primary pb-1 transition-colors duration-300 uppercase tracking-widest" href="{{ route('about') }}">Mengenai Tim Kami</a>
+                    <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors duration-300 uppercase tracking-widest" href="{{ route('contact') }}">Kontak</a>
+                </div>
+                <button class="text-primary hover:text-primary-fixed-dim transition-colors flex items-center">
+                    <span class="material-symbols-outlined">shopping_bag</span>
+                </button>
             </div>
 
-            <div class="flex items-center">
-                <span class="material-symbols-outlined text-primary" data-icon="shopping_bag">shopping_bag</span>
-            </div>
         </div>
     </nav>
 
@@ -216,7 +223,7 @@
                 </h1>
                 <div class="w-12 h-[1px] bg-primary-container mx-auto mb-6"></div>
                 <p class="font-body-md md:font-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
-                    Lumina lahir dari semangat menghadirkan kelezatan jajanan & hidangan otentik Nusantara seperti Sempol Ayam dan Nasi Daun Jeruk dengan standar penyajian <i>gourmet Asian fusion</i> kelas atas.
+                    Bite &amp; Go lahir dari semangat menghadirkan kelezatan jajanan & hidangan otentik Nusantara seperti Sempol Ayam dan Nasi Daun Jeruk dengan standar penyajian <i>gourmet Asian fusion</i> kelas atas.
                 </p>
             </div>
         </section>
@@ -224,9 +231,9 @@
         <!-- CERITA BRAND & VISI -->
         <section class="relative z-10 py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low">
             <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center fade-in-element">
-                <!-- Gambar dengan Sudut Tajam (Lumina Style) -->
+                <!-- Gambar dengan Sudut Tajam -->
                 <div class="relative w-full aspect-square md:aspect-[4/3] glass-container overflow-hidden">
-                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=80" alt="Dapur Lumina" class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=80" alt="Dapur Oriental Noir" class="w-full h-full object-cover grayscale opacity-80 hover:grayscale-0 transition-all duration-700">
                 </div>
                 
                 <!-- Teks Deskripsi -->
@@ -288,7 +295,7 @@
             <div class="max-w-7xl mx-auto">
                 <div class="text-center mb-16 fade-in-element">
                     <span class="font-label-sm text-label-sm text-primary/60 uppercase tracking-[0.2em] block mb-4">Komitmen Kami</span>
-                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">Prinsip Kualitas Lumina</h2>
+                    <h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-2">Prinsip Kualitas BITE &amp; GO</h2>
                     <div class="h-1 w-8 bg-primary mx-auto mt-4"></div>
                 </div>
 
@@ -313,24 +320,23 @@
         <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center md:items-start justify-between gap-12">
             
             <div class="text-center md:text-left">
-                <div class="font-headline-lg text-headline-lg md:text-[32px] text-primary mb-4 tracking-widest">LUMINA</div>
+                <div class="font-headline-lg text-headline-lg md:text-[32px] text-primary mb-4 tracking-widest">BITE &amp; GO</div>
                 <p class="font-label-sm text-label-sm text-on-surface-variant/60 tracking-widest max-w-xs mx-auto md:mx-0">
                     GOURMET ASIAN FUSION <br> SEMPOL & RICE DELIGHTS
                 </p>
             </div>
             
             <nav class="flex flex-wrap justify-center md:justify-end gap-6 md:gap-8">
-                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="{{ route('home') }}">MENU</a>
-                <a class="font-label-sm text-label-sm text-primary font-bold transition-colors" href="{{ route('about') }}">TENTANG KAMI</a>
-                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="{{ route('contact') ?? '#' }}">KONTAK</a>
-                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">PRIVACY</a>
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="{{ route('home') }}">MENU</a>
+                <a class="font-label-sm text-label-sm text-primary font-bold transition-colors uppercase tracking-widest" href="{{ route('about') }}">TENTANG KAMI</a>
+                <a class="font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase tracking-widest" href="{{ route('contact') ?? '#' }}">KONTAK</a>
             </nav>
             
         </div>
         
         <div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop mt-16 pt-8 border-t border-on-surface/10 flex flex-col md:flex-row items-center justify-between gap-6">
             <p class="font-label-sm text-label-sm text-on-surface-variant/40 text-center md:text-left uppercase tracking-tighter">
-                &copy; {{ date('Y') }} LUMINA GOURMET ASIAN FUSION. ALL RIGHTS RESERVED.
+                &copy; {{ date('Y') }} BITE &amp; GO GOURMET ASIAN FUSION. ALL RIGHTS RESERVED.
             </p>
             <div class="flex gap-6">
                 <span class="material-symbols-outlined text-primary/60 cursor-pointer hover:text-primary transition-colors text-xl" data-icon="share">share</span>
