@@ -270,14 +270,6 @@
                             </div>
                             <p class="text-on-surface-variant/60 text-sm">Lime leaf infused rice with premium crispy chicken leg.</p>
                         </li>
-                        <li class="flex flex-col">
-                            <div class="flex items-end justify-between mb-1">
-                                <span class="font-headline-md text-headline-md text-primary">Ayam Bakar Madu</span>
-                                <div class="dotted-leader"></div>
-                                <span class="font-body-md text-primary-fixed">72</span>
-                            </div>
-                            <p class="text-on-surface-variant/60 text-sm">Honey-glazed grilled chicken with house sambal blend.</p>
-                        </li>
                     </ul>
                 </div>
                 <!-- Menu Category 2 -->
@@ -291,14 +283,6 @@
                                 <span class="font-body-md text-primary-fixed">38</span>
                             </div>
                             <p class="text-on-surface-variant/60 text-sm">Signature citrus glow with crushed ice and lemon zest.</p>
-                        </li>
-                        <li class="flex flex-col">
-                            <div class="flex items-end justify-between mb-1">
-                                <span class="font-headline-md text-headline-md text-primary">Lemongrass Tea</span>
-                                <div class="dotted-leader"></div>
-                                <span class="font-body-md text-primary-fixed">25</span>
-                            </div>
-                            <p class="text-on-surface-variant/60 text-sm">House-brewed aromatic tea with honey and fresh stalks.</p>
                         </li>
                     </ul>
                 </div>
